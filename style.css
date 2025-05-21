@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: monospace;
+    background-color: rgb(255, 230, 199);
+}
+
+header{
+
+}
+.headerContainer {
+    list-style: none;
+    border: 3px solid blue;
+    max-width: 100%;
+    height: 100px;
+    
+}
+
+nav a{
+    padding: 2%;    
+    text-decoration: none;
+    border: 1px solid gray;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    text-align: right;
+}
+.logo{
+    border: 1px solid red;
+    font-size: 80px;
+    margin: 10px;
+    float: left;
+   
+}
+
+main{
+    margin-top: 15px; 
+}
+
+.introducao{
+    font-size: 30px;
+    float: left;
+    margin-left: 30%;
+}
+
+.flexContainer {
+     display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(43, 59, 197);
+}
+
+.flexContainer section{
+    border: 1px solid rgb(106, 231, 22);
+    margin: 30px;
+}
+
+.sobre_mim{
+    font-size: 30px;
+    float: left;
+    margin-left: 10%;
+}
+
+.inicio{
+    font-size: 20px;
+    float:left;
+    margin-left: 15%;
+}
+
+
+
+
