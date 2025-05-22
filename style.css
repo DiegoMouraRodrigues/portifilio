@@ -6,7 +6,7 @@
 
 body{
     font-family: monospace;
-    background-color: rgb(255, 230, 199);
+    background-color: rgb(148, 147, 147);
 }
 
 header{
@@ -14,7 +14,7 @@ header{
 }
 .headerContainer {
     list-style: none;
-    border: 3px solid blue;
+
     max-width: 100%;
     height: 100px;
     
@@ -23,8 +23,8 @@ header{
 nav a{
     padding: 2%;    
     text-decoration: none;
-    border: 1px solid gray;
-    font-size: 24px;
+    
+    font-size: 20px;
     color: rgb(0, 0, 0);
     float: right;
 }
@@ -36,10 +36,11 @@ nav{
     text-align: right;
 }
 .logo{
-    border: 1px solid red;
+    
     font-size: 80px;
     margin: 10px;
     float: left;
+
    
 }
 
@@ -49,25 +50,24 @@ main{
 
 .introducao{
     font-size: 30px;
-    float: left;
-    margin-left: 30%;
+    align-self: center;
 }
 
 .flexContainer {
-     display: flex;
+    display: flex;
     flex-direction: column;
-    border: 1px solid rgb(43, 59, 197);
+    border: 1px solid rgb(81, 4, 88);
 }
 
 .flexContainer section{
-    border: 1px solid rgb(106, 231, 22);
+    border: 1px solid rgb(33, 78, 3);
     margin: 30px;
 }
 
 .sobre_mim{
     font-size: 30px;
     float: left;
-    margin-left: 10%;
+    margin-left: 3%;
 }
 
 .inicio{
@@ -76,6 +76,37 @@ main{
     margin-left: 15%;
 }
 
+.titulo1{
 
+    font-size: 30px;
+    float: left;
+    margin-left: 40%;
+}
+
+.imagem{
+    float: left;
+    margin-left: 70%;
+    
+}
+
+.contato{
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.cursos{
+font-size: 30px;
+float: left;
+margin-left: 40%;
+margin-top: 1%;
+}
+
+.cursosContainer{
+
+
+}
 
 
