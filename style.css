@@ -14,7 +14,6 @@ header{
 }
 .headerContainer {
     list-style: none;
-
     max-width: 100%;
     height: 100px;
     
@@ -22,26 +21,23 @@ header{
 
 nav a{
     padding: 2%;    
-    text-decoration: none;
-    
+    text-decoration: none;    
     font-size: 20px;
     color: rgb(0, 0, 0);
     float: right;
 }
 nav a:hover{
     color: rgb(255, 255, 255);
+    
 }
 
 nav{
     text-align: right;
 }
 .logo{
-    
     font-size: 80px;
     margin: 10px;
-    float: left;
-
-   
+    float: left;   
 }
 
 main{
@@ -59,54 +55,30 @@ main{
     border: 1px solid rgb(81, 4, 88);
 }
 
-.flexContainer section{
-    border: 1px solid rgb(33, 78, 3);
-    margin: 30px;
+.imagem{
+    float: left;
+    margin-left: 70%;
+    background-color: red;
+    max-width: 90%;
+    width: 24%;
+    border-radius: 150px;
 }
 
-.sobre_mim{
+.flexContainer section{
+    margin: 30px;
+    margin-top: 10%;
+}
+
+.titulo1{
     font-size: 30px;
     float: left;
-    margin-left: 3%;
+    margin-left: 5%;
+    margin-top: 10%;
 }
 
 .inicio{
     font-size: 20px;
-    float:left;
-    margin-left: 15%;
-}
-
-.titulo1{
-
-    font-size: 30px;
-    float: left;
-    margin-left: 40%;
-}
-
-.imagem{
-    float: left;
-    margin-left: 70%;
+    margin-left: 5%;
     
+     
 }
-
-.contato{
-    font-size: 24px;
-    font-weight: bold;
-    float: left;
-    margin-left: 40%;
-    margin-top: 1%;
-}
-
-.cursos{
-font-size: 30px;
-float: left;
-margin-left: 40%;
-margin-top: 1%;
-}
-
-.cursosContainer{
-
-
-}
-
-
